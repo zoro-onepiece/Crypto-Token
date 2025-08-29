@@ -1,0 +1,32 @@
+{
+  "canisters": {
+    "internet_identity": {
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "frontend": {},
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz"
+    },
+    "tokenc_backend": {
+      "main": "src/tokenc_backend/main.mo",
+      "type": "motoko"
+    },
+    "tokenc_frontend": {
+      "dependencies": [
+        "tokenc_backend"
+      ],
+      "source": [
+        "src/tokenc_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "tokenc_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
