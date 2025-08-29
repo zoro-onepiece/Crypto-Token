@@ -1,3 +1,34 @@
+# `Notes by Author of the Repo`
+For successfully running this code ,in main.mo(backend) ,put your principal where I have highlighted in my code .You can get your principal from terminal using 
+```bash
+dfx identity get-principal
+```
+Note: This project is configured to use II(internet identity).I used nns to set up my local II so that i could login with II then be directed to app.
+If you wnat to follow my way :
+Open two terminals:
+Terminal 1:
+```bash
+dfx extension install nns
+```
+After it's done ,run 
+```bash
+dfx start --clean --background
+```
+Terminal 2:
+```bash
+dfx nns install
+```
+After it is done 
+run :
+```bash
+dfx deploy
+```
+after that run:
+```bash
+npm start
+```
+### Note:
+I have only tested my project locally .Haven't deployed on playground or mainnet .If you took course 'Full stack web development by Angla Yu ' and got stuck coz that course is very outdated for web 3 ,then this repo is perfect for you coz I have updated the code to new version etc.I have given my project,my  token and my app the names I wanted ,so don't get confused.you can name yours whatever you want! 
 # `tokenc`
 
 Welcome to your new `tokenc` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
