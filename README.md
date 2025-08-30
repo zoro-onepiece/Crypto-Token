@@ -5,6 +5,7 @@ dfx identity get-principal
 ```
 and I used Map data structure from motoko core library.Configure it in your project by following instructions  from the docs:
 - [Motoko Core Library](https://github.com/dfinity/motoko-core)
+
 Command for adding core  using Mops package manager is :
 ```bash
 mops add core
