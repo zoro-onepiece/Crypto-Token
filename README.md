@@ -3,6 +3,13 @@ For successfully running this code ,in main.mo(backend) ,put your principal wher
 ```bash
 dfx identity get-principal
 ```
+and I used Map data structure from motoko core library.Configure it in your project by following instructions  from the docs:
+- [Motoko Core Library](https://github.com/dfinity/motoko-core)
+Command for adding core  using Mops package manager is :
+```bash
+mops add core
+```
+
 Note: This project is configured to use II(internet identity).I used nns to set up my local II so that i could login with II then be directed to app.
 If you wnat to follow my way :
 Open two terminals:
