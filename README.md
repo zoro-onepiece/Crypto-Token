@@ -3,7 +3,12 @@ For successfully running this code ,in main.mo(backend) ,put your principal wher
 ```bash
 dfx identity get-principal
 ```
-and I used Map data structure from motoko core library.Configure it in your project by following instructions  from the docs:
+Be sure to install all dependencies using
+```bash
+npm i
+```
+Also be sure you are using latest and compatible versions of both dfx and all other dependencies.
+I used Map data structure from motoko core library.Configure it in your project by following instructions  from the docs:
 - [Motoko Core Library](https://github.com/dfinity/motoko-core)
 
 Command for adding core  using Mops package manager is :
