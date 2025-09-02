@@ -17,7 +17,7 @@ mops add core
 ```
 
 Note: This project is configured to use II(internet identity).I used nns to set up my local II so that i could login with II then be directed to app.
-If you wnat to follow my way :
+If you want to follow my way :
 Open two terminals:
 Terminal 1:
 ```bash
