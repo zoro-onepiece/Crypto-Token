@@ -41,7 +41,7 @@ after that run:
 npm start
 ```
 ### Note:
-I have only tested my project locally .Haven't deployed on playground or mainnet .If you took course 'Full stack web development by Angla Yu ' and got stuck coz that course is very outdated for web 3 ,then this repo is perfect for you coz I have updated the code to new version etc.I have given my project,my  token and my app the names I wanted ,so don't get confused.you can name yours whatever you want.I have opened discussions, so  project related things are welcome! 
+I have only tested my project locally .Haven't deployed on playground or mainnet .If you took course 'Full stack web development by Angla Yu ' and got stuck coz that course is very outdated for web 3 ,then this repo is perfect for you coz I have updated the code to new version etc.I have given my project,my  token and my app the names I wanted ,so don't get confused.you can name yours whatever you want. PR's, issues and github discussions are welcome! 
 # `tokenc`
 
 Welcome to your new `tokenc` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
